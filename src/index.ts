@@ -28,5 +28,5 @@ app.use('/onfailure', OnFailureRouter);
 
 /** Server Activation */
 app.listen(PORT, () => {
-	console.log(`Listening on port ${PORT}\nDid you remember to ensure your PostgreSQL database has been configured and started?`);
+	console.log(`Listening on port ${PORT}\nDid you remember to ensure your dependencies (if any) have been configured and started?`);
 });
